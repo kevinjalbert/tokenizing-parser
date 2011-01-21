@@ -10,8 +10,8 @@ Now create an instance of the Tokenizer.java class with the language specified.
 * Example:	`Tokenizer tokenizer = new Tokenizer( JavaKeywords.getInstance() );`
 
 #### Step 4:
-	Now perform the tokenization of the input (there are two forms of output, one with identifiers replacing the tokens, or one without the identifiers). The output is an arraylist of string values. The first example will replace tokens with identifiers; the flag is to	keep or remove comments, while the second will tokenize without any comments or string literals
-	
+Now perform the tokenization of the input (there are two forms of output, one with identifiers replacing the tokens, or one without the identifiers). The output is an arraylist of string values. The first example will replace tokens with identifiers; the flag is to	keep or remove comments, while the second will tokenize without any comments or string literals
+
 * Example:	`ArrayList<String> tokenizeInput = tokenizer.tokenizeInputWithMapping(input, false );`
 
 * Example:	`ArrayList<String> tokenizeInput = tokenizer.tokenizeInput(input);`
