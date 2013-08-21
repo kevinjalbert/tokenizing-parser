@@ -32,3 +32,7 @@ The TokenTable.java class holds AutoKeyHashMap.java objects, this is where the m
 The tokenizer can be used for multiple inputs, it does not need to be done in one shot. The only thing to be aware of is that the TokenTable.java object will keep building up the mappings, so if you want a fresh map.
 
 * Example:	`tokenizer.clearTokenTable();`
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kevinjalbert/tokenizing-parser/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
